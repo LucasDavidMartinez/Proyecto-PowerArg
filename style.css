@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.nav_brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_brand a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciones li a{
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.weightlifting{
+    margin: 0.4rem;
+    margin-right: 0.5rem;
+    width: 3rem;
+}
+
+.shop_ico{
+    margin: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
